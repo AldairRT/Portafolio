@@ -1,0 +1,45 @@
+/*Globals*/
+
+
+/*Header*/
+header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding-left: 33px;
+    padding-right:31px;
+    justify-content: space-between;
+    background-color: black;
+    box-shadow:1px 1px 1px 1px grey;
+}
+
+header h1{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+nav a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #c7c7c7;
+}
+
+header ul{
+display: flex;
+}
+
+header li{
+    margin-left: 17px;
+}
