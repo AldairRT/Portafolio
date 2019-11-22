@@ -1,8 +1,15 @@
 /*Globals*/
 
+/*wrapper*/
+
+.wrapper{
+    margin: auto;
+    width: 960px;
+}
 
 /*Header*/
-header{
+
+header{ 
     display: flex;
     align-items: center;
     height: 80px;
@@ -37,7 +44,7 @@ nav a{
 }
 
 header ul{
-display: flex;
+    display: flex;
 }
 
 header li{
@@ -45,18 +52,18 @@ header li{
 }
 
 /*About me */
-.Aboutme h2 {
- text-align: center;       
- width: 102px;
- height: 29px;
- font-family: Helvetica;
- font-size: 24px;
- font-weight: bold;
- font-stretch: normal;
- font-style: normal;
- line-height: normal;
- letter-spacing: normal;
- color: #c8c8c8;      
+.Aboutme h2 {     
+    margin-top: 30px; 
+    margin-bottom: 26px;
+    margin-left: 43px;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #c8c8c8;      
 }
 .container p{
     font-family: Arial;
@@ -70,24 +77,31 @@ header li{
 }
 
 .Aboutme div{
+    margin-right: 30px;
     width: 703px;
-    height: 213px;
+    height: 213px;     
     display: flex;
 }
 
+
 .container{
- margin-left: 30px;   
- margin-top: 50px;   
- align-items: center;
- width: 703px;
- 
- display:flex;
- flex-direction: column;
+    margin-left: 30px;   
+    margin-top: 50px;   
+    align-items: center;
+    width: 703px;
+    display:flex;
+    flex-direction: column;
 }
 
 .vectores img{
     height: 40px;
     width: 40px;
     margin-right: 10px;
-    margin-left: 35px;
+    
+}
+
+/*Portafolio*/
+
+.Portfolio h2{
+    
 }
